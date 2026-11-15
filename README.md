@@ -20,9 +20,10 @@ Open **http://127.0.0.1:4317**. No account, API key, database server, cloud subs
 ```sh
 npm test
 npm run seed
+npm run inspect
 ```
 
-`npm run seed` opens the persistent graph, seeds it only if empty, and prints an inspectable JSON view. It does not reset existing changes. To start a separate clean workspace, set `SOURCETRAIL_STORE` to a new path before running the server (PowerShell: `$env:SOURCETRAIL_STORE='./data/another-edition'`). Only one server process should write a store. `PORT` defaults to 4317.
+`npm run seed` opens the persistent graph, seeds it only if empty, and prints an inspectable JSON view. It does not reset existing changes. `npm run inspect` opens the included pristine Relate store at `fixtures/editorial/` read-only and prints its nodes and relationships. To start a separate clean workspace, set `SOURCETRAIL_STORE` to a new path before running the server (PowerShell: `$env:SOURCETRAIL_STORE='./data/another-edition'`). Only one server process should write a store. `PORT` defaults to 4317.
 
 ## A two-minute demo
 
@@ -44,7 +45,7 @@ These are synthetic editorial examples, not factual claims about a real waterfro
 - **Model:** `Article -[:CONTAINS]-> Claim -[:SUPPORTED_BY]-> Source -[:CITES]-> Source`. Evidence relationships record the reviewed source revision and a stale-review flag. Source updates and human reviews create `Event` nodes.
 - **Queries:** parameterized Cypher; `CITES*0..8` traverses direct and indirect dependencies in Relate. Both impact calculation and invalidation of downstream evidence run against the graph, rather than a hardcoded list of affected articles.
 - **Writes:** each source update, evidence invalidation and event write is committed in a single transaction. Restoring source availability does not erase stale evidence. Recording a review is blocked while any reachable upstream source remains flagged.
-- **Persistence:** normal mutations are durable; tests also reopen the same store in a fresh process. Generated stores are excluded from Git because the app deterministically creates an inspectable store on first run. The demo shows the live store through the app and `npm run seed`.
+- **Persistence:** normal mutations are durable; tests also reopen the same store in a fresh process. The repository includes a pristine, inspectable Relate directory store in `fixtures/editorial/`. Mutable working stores under `data/` are excluded from Git. The demo shows the live store through the app and `npm run seed`.
 
 The core impact query lives in [graph.js](graph.js). The same source can support several claims and the same claim can appear in several articles, so the graph models shared evidence without duplicating it.
 
@@ -79,3 +80,9 @@ Significant AI assistance: OpenAI Codex helped design the graph model, generate 
 Dependencies: Relate (Apache-2.0), its native platform package, and Koffi (MIT), installed through npm. The lockfile records exact versions. Optional typography: DM Sans and Libre Baskerville from Google Fonts, under the SIL Open Font License; system fallback fonts work offline. No stock imagery or music is used. Relate and Neo4j names identify the integration and do not imply endorsement.
 
 SourceTrail code is MIT licensed. See [LICENSE](LICENSE).
+
+## Demo presentation source
+
+[69-second demo MP4](demo/sourcetrail-demo.mp4) · [Timed English commentary](demo/commentary.vtt)
+
+This is a silent presentation of actual browser screenshots, captured while exercising the app. It contains no simulated UI, generated images, narration or music. `demo/timeline.json` retains the edit decisions, `demo/manifest.json` records provenance and timing, and `demo/render.py` rebuilds the MP4 with Pillow and imageio-ffmpeg. Rendering dependencies are separate from the app. The export was fully decoded for errors and frames from every scene were visually checked; real-time playback was not reviewed.

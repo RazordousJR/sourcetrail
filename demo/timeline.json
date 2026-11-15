@@ -1,0 +1,11 @@
+[
+  {"asset":"01-baseline.jpg","duration":7,"text":"SourceTrail connects articles, claims and sources in a local Relate graph."},
+  {"asset":"02-withdraw.jpg","duration":7,"text":"An editor withdraws the river survey and records the reason."},
+  {"asset":"03-impact.jpg","duration":8,"text":"Two stories need review. The independent heritage story stays current."},
+  {"asset":"04-chain.jpg","duration":9,"text":"The economy digest cites the withdrawn survey. Relate finds this indirect dependency."},
+  {"asset":"05-blocked.jpg","duration":7,"text":"A review cannot clear evidence while its upstream source is still flagged."},
+  {"asset":"06-stale.jpg","duration":8,"text":"A corrected source is available, but earlier evidence reviews remain stale."},
+  {"asset":"07-reviewed.jpg","duration":7,"text":"After human review, the business story is current. Another story still needs attention."},
+  {"asset":"08-graph.jpg","duration":8,"text":"Articles share claims and evidence. Each source change follows those relationships."},
+  {"asset":"09-history.jpg","duration":8,"text":"Changes and reviews persist locally. No cloud account, API key or model call is needed."}
+]

@@ -1,0 +1,30 @@
+WEBVTT
+
+NOTE Timed commentary for a silent UI presentation; no speech transcript.
+
+00:00:00.000 --> 00:00:07.000
+SourceTrail connects articles, claims and sources in a local Relate graph.
+
+00:00:07.000 --> 00:00:14.000
+An editor withdraws the river survey and records the reason.
+
+00:00:14.000 --> 00:00:22.000
+Two stories need review. The independent heritage story stays current.
+
+00:00:22.000 --> 00:00:31.000
+The economy digest cites the withdrawn survey. Relate finds this indirect dependency.
+
+00:00:31.000 --> 00:00:38.000
+A review cannot clear evidence while its upstream source is still flagged.
+
+00:00:38.000 --> 00:00:46.000
+A corrected source is available, but earlier evidence reviews remain stale.
+
+00:00:46.000 --> 00:00:53.000
+After human review, the business story is current. Another story still needs attention.
+
+00:00:53.000 --> 00:01:01.000
+Articles share claims and evidence. Each source change follows those relationships.
+
+00:01:01.000 --> 00:01:09.000
+Changes and reviews persist locally. No cloud account, API key or model call is needed.

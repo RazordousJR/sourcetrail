@@ -1,0 +1,117 @@
+{
+  "width": 1440,
+  "height": 1200,
+  "fps": 24,
+  "duration_seconds": 69,
+  "audio": "none; intentional silent presentation",
+  "assets": [
+    {
+      "asset": "01-baseline.jpg",
+      "source_dimensions": [
+        1425,
+        1089
+      ],
+      "sequence_start": 0,
+      "sequence_end": 7,
+      "fit": "contain, uniform scale <= 1",
+      "audio_owner": "intentional silence",
+      "provenance": "Actual Chrome app screenshot captured through CUA"
+    },
+    {
+      "asset": "02-withdraw.jpg",
+      "source_dimensions": [
+        1425,
+        1089
+      ],
+      "sequence_start": 7,
+      "sequence_end": 14,
+      "fit": "contain, uniform scale <= 1",
+      "audio_owner": "intentional silence",
+      "provenance": "Actual Chrome app screenshot captured through CUA"
+    },
+    {
+      "asset": "03-impact.jpg",
+      "source_dimensions": [
+        1425,
+        1089
+      ],
+      "sequence_start": 14,
+      "sequence_end": 22,
+      "fit": "contain, uniform scale <= 1",
+      "audio_owner": "intentional silence",
+      "provenance": "Actual Chrome app screenshot captured through CUA"
+    },
+    {
+      "asset": "04-chain.jpg",
+      "source_dimensions": [
+        1425,
+        1089
+      ],
+      "sequence_start": 22,
+      "sequence_end": 31,
+      "fit": "contain, uniform scale <= 1",
+      "audio_owner": "intentional silence",
+      "provenance": "Actual Chrome app screenshot captured through CUA"
+    },
+    {
+      "asset": "05-blocked.jpg",
+      "source_dimensions": [
+        1425,
+        1089
+      ],
+      "sequence_start": 31,
+      "sequence_end": 38,
+      "fit": "contain, uniform scale <= 1",
+      "audio_owner": "intentional silence",
+      "provenance": "Actual Chrome app screenshot captured through CUA"
+    },
+    {
+      "asset": "06-stale.jpg",
+      "source_dimensions": [
+        1425,
+        1089
+      ],
+      "sequence_start": 38,
+      "sequence_end": 46,
+      "fit": "contain, uniform scale <= 1",
+      "audio_owner": "intentional silence",
+      "provenance": "Actual Chrome app screenshot captured through CUA"
+    },
+    {
+      "asset": "07-reviewed.jpg",
+      "source_dimensions": [
+        1425,
+        1089
+      ],
+      "sequence_start": 46,
+      "sequence_end": 53,
+      "fit": "contain, uniform scale <= 1",
+      "audio_owner": "intentional silence",
+      "provenance": "Actual Chrome app screenshot captured through CUA"
+    },
+    {
+      "asset": "08-graph.jpg",
+      "source_dimensions": [
+        1425,
+        1089
+      ],
+      "sequence_start": 53,
+      "sequence_end": 61,
+      "fit": "contain, uniform scale <= 1",
+      "audio_owner": "intentional silence",
+      "provenance": "Actual Chrome app screenshot captured through CUA"
+    },
+    {
+      "asset": "09-history.jpg",
+      "source_dimensions": [
+        1425,
+        1089
+      ],
+      "sequence_start": 61,
+      "sequence_end": 69,
+      "fit": "contain, uniform scale <= 1",
+      "audio_owner": "intentional silence",
+      "provenance": "Actual Chrome app screenshot captured through CUA"
+    }
+  ]
+}

@@ -1,3 +1,6 @@
 node_modules/
 data/
 test-results/
+demo/rendered/
+**/.cypherlite.lock
+**/.cypherlite.writer
