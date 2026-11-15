@@ -4,6 +4,8 @@
 
 SourceTrail is a local editorial evidence desk for independent publishers. It connects articles to claims, claims to evidence, and sources to the sources they cite. When a source changes or is withdrawn, Relate follows those relationships to identify affected stories, including indirect dependencies that a flat checklist misses.
 
+**[Watch the 69-second demo](https://youtu.be/1SVoRBqPO2Q)** · [Devpost project](https://devpost.com/software/sourcetrail)
+
 ![SourceTrail evidence desk](docs/evidence-desk.jpg)
 
 ## Try it locally
