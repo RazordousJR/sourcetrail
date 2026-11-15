@@ -38,7 +38,7 @@ OpenAI Codex assisted with design, implementation, synthetic data, testing, docu
 - Public repo: https://github.com/RazordousJR/sourcetrail ; topics relate and relate-neo4j-hackathon verified.
 - Pristine persistent directory store included at fixtures/editorial/; inspect read-only with npm run inspect.
 - GitHub Actions Ubuntu/Node 22 integration run 43681931004 passed.
-- Devpost draft created: submission 1305071, project 1549912, preview https://devpost.com/software/sourcetrail . Name and pitch saved. Story, repo link and Relate tag prepared in the project-details form, awaiting demo video link before saving this step.
+- Devpost draft: https://devpost.com/software/sourcetrail . Overview and technical additional information saved; story and demo media in preparation.
 - Video: demo/sourcetrail-demo.mp4, 69-second silent presentation using actual Chrome screenshots, with timed English commentary. Fully decoded and a frame from every scene visually checked; real-time playback not reviewed.
-- YouTube channel Hamzah Asyrani already exists. Upload dialog open, no file uploaded. Its notice says submission acknowledges Terms of Service and Community Guidelines. Explicit action-time approval requested to upload Unlisted; awaiting user response.
+- Hosted demo link: pending.
 - Final submission: not submitted.
